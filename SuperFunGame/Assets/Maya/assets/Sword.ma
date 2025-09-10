@@ -1,6 +1,6 @@
 //Maya ASCII 2026 scene
 //Name: Sword.ma
-//Last modified: Fri, Aug 29, 2025 02:59:30 PM
+//Last modified: Sun, Sep 07, 2025 01:00:45 PM
 //Codeset: 1252
 requires maya "2026";
 requires -nodeType "materialxStack" -nodeType "MaterialXSurfaceShader" -dataType "MxDocumentStackData"
@@ -12,17 +12,17 @@ fileInfo "product" "Maya 2026";
 fileInfo "version" "2026";
 fileInfo "cutIdentifier" "202507081222-4d6919b75c";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 22621)";
-fileInfo "UUID" "D67F591B-45D1-19C4-66BD-59899C1475F3";
+fileInfo "UUID" "D80F1861-4BFD-8C57-EB8F-DEBE407CB54D";
 createNode transform -s -n "persp";
 	rename -uid "BAC2E0A7-4F77-B3B2-F2F7-E9887F0BD678";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 45.514357686191744 -13.558011979591893 -6.1759583401973446 ;
-	setAttr ".r" -type "double3" 14.400000000007603 817.19999999991228 0 ;
+	setAttr ".t" -type "double3" 59.912868223388067 -7.5988993224180881 0.018264842123727476 ;
+	setAttr ".r" -type "double3" 6.5999999999994881 810.40000000014459 5.0888874903416268e-14 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "279FFEC3-4DED-1444-3E3D-CEA9632AF7E8";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 47.692951759027572;
+	setAttr ".coi" 59.672618343108951;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -88,7 +88,7 @@ createNode mesh -n "pCubeShape1" -p "pCube1";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.50000162422657013 0.44596627727150917 ;
+	setAttr ".pv" -type "double2" 0.3156358003616333 0.30938545614480972 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr ".cuvs" -type "string" "map1";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
@@ -5835,8 +5835,8 @@ createNode shadingEngine -n "standardSurface5SG";
 createNode materialInfo -n "materialInfo6";
 	rename -uid "9E8D4778-4F69-C5B4-6678-66ACE94B9ABD";
 select -ne :time1;
-	setAttr ".o" 1;
-	setAttr ".unw" 1;
+	setAttr ".o" 106;
+	setAttr ".unw" 106;
 select -ne :hardwareRenderingGlobals;
 	setAttr ".otfna" -type "stringArray" 22 "NURBS Curves" "NURBS Surfaces" "Polygons" "Subdiv Surface" "Particles" "Particle Instance" "Fluids" "Strokes" "Image Planes" "UI" "Lights" "Cameras" "Locators" "Joints" "IK Handles" "Deformers" "Motion Trails" "Components" "Hair Systems" "Follicles" "Misc. UI" "Ornaments"  ;
 	setAttr ".otfva" -type "Int32Array" 22 0 1 1 1 1 1
