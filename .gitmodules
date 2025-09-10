@@ -1,0 +1,6 @@
+[submodule "https://github.com/CeeWhi/ArtisanDream.Tools.git Assets/Submodules/ArtisanDream.Tools"]
+	path = https://github.com/CeeWhi/ArtisanDream.Tools.git Assets/Submodules/ArtisanDream.Tools
+	url = https://github.com/CeeWhi/ArtisanDream.Tools.git
+[submodule "Assest/Submodules/ArtisanDream.Tools"]
+	path = Assest/Submodules/ArtisanDream.Tools
+	url = https://github.com/CeeWhi/ArtisanDream.Tools.git
