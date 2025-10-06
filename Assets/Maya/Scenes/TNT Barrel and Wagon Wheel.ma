@@ -1,6 +1,6 @@
 //Maya ASCII 2026 scene
 //Name: TNT Barrel and Wagon Wheel.ma
-//Last modified: Fri, Oct 03, 2025 03:08:25 PM
+//Last modified: Fri, Oct 03, 2025 09:13:13 PM
 //Codeset: 1252
 requires maya "2026";
 requires -nodeType "type" -nodeType "shellDeformer" -nodeType "vectorAdjust" -nodeType "typeExtrude"
@@ -13,7 +13,7 @@ fileInfo "product" "Maya 2026";
 fileInfo "version" "2026";
 fileInfo "cutIdentifier" "202507081222-4d6919b75c";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 22621)";
-fileInfo "UUID" "348EE22A-44CC-F534-2B9A-4F9CE7DE8031";
+fileInfo "UUID" "6E9ABE2C-4338-C4D4-D17B-03BE221A5326";
 createNode transform -n "pCylinder26";
 	rename -uid "EC840AFE-4D48-68FC-3EBF-F389AB1B3471";
 	setAttr ".t" -type "double3" 2.420012382237493 10.832866214673741 7.1437004369336536 ;
@@ -76,13 +76,13 @@ createNode mesh -n "pCylinder37Shape" -p "pCylinder37";
 createNode transform -s -n "persp";
 	rename -uid "99749C09-4A71-DBDF-139D-1BA9A1056011";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 0.53205963996053962 9.7217351433226131 22.08783016722014 ;
-	setAttr ".r" -type "double3" -18.87122063434909 723.39999999996314 0 ;
+	setAttr ".t" -type "double3" 4.1030095665021182 6.4309909106082532 26.093384985228681 ;
+	setAttr ".r" -type "double3" -8.6712206343490124 726.99999999993418 1.0013875287447432e-16 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "5729849C-4A40-1E52-2A86-29BCAC396847";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 20.190791575734917;
+	setAttr ".coi" 24.226788509286578;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
