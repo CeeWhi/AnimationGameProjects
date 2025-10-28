@@ -4,3 +4,6 @@
 [submodule "Assets/Submodules"]
 	path = Assets/Submodules
 	url = https://github.com/CeeWhi/ArtisanDream.Tools
+[submodule "3DEssentialsResources"]
+	path = 3DEssentialsResources
+	url = https://github.com/CeeWhi/3DEssentialsResources
